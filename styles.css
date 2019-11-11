@@ -1,0 +1,30 @@
+section{
+    font-family: Avenir;
+    width: 250px;
+    height: 390px;
+    overflow: hidden;
+    text-align: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.character{
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px grey;
+    width: 200px;
+    margin: 0 0 200px 0;
+    transition:all .3s;
+    cursor: pointer;
+}
+
+.character:hover{
+    box-shadow: 1px 1px 5px grey;
+    transform: scale(.99);
+}
+
+.character img{
+    width:100%;
+    border-radius:10px 10px 0 0;
+}
