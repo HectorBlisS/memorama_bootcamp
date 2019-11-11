@@ -9,6 +9,7 @@ section{
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    transition:all .3s;
 }
 .character{
     border-radius: 10px;
